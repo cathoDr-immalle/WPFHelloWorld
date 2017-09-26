@@ -28,6 +28,7 @@ namespace WFPHelloWolrd
         private void MIjnKnop_Click(object sender, RoutedEventArgs e)
         {
             Labeltekst.Content = ("De wereldbol is een ruimteschip!");
+            MijnLabelStatus.Background = Brushes.Red;
         }
     }
 }
