@@ -23,12 +23,15 @@ namespace WFPHelloWolrd
         public MainWindow()
         {
             InitializeComponent();
-        }
 
+        }
+        private int aantalkliks = 0;
         private void MIjnKnop_Click(object sender, RoutedEventArgs e)
         {
             Labeltekst.Content = ("De wereldbol is een ruimteschip!");
             MijnLabelStatus.Background = Brushes.Red;
+            MIjnKnop.Content = "klik hier" + "[" + (aantalkliks + 1) + "]";
+            aantalkliks = aantalkliks + 1;
         }
     }
 }
