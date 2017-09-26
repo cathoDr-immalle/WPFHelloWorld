@@ -24,5 +24,10 @@ namespace WFPHelloWolrd
         {
             InitializeComponent();
         }
+
+        private void MIjnKnop_Click(object sender, RoutedEventArgs e)
+        {
+            Labeltekst.Content = ("De wereldbol is een ruimteschip!");
+        }
     }
 }
